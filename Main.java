@@ -10,7 +10,7 @@ public class Main {
             int prve = scanner.nextInt();
             System.out.println("Druhe cislo: ");
             int druhe = scanner.nextInt();
-            System.out.println("Operaciu (1 pre +) (2 pre -) (3 pre /) (4 pre *): ");
+            System.out.println("Operacia (1 pre +) (2 pre -) (3 pre /) (4 pre *): ");
             int operacia = scanner.nextInt();
             int a=1;
             int b=2;
