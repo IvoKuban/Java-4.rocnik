@@ -3,6 +3,18 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+    static float scitaj(float f, int h){
+        return f+h;
+    }
+    static float odcitaj(float f, int h){
+        return f-h;
+    }
+    static float vydel(float f, int h){
+        return f/h;
+    }
+    static float vynasob(float f, int h){
+        return f*h;
+    }
 
     public static void main(String[] args) {
 
@@ -26,19 +38,23 @@ public class Main {
 
             if (operacia == a) {
                 System.out.println("Vysledok je: ");
-                System.out.println(prve + druhe);
+                float vysledok_scitaj = scitaj(prve,druhe);
+                System.out.println(vysledok_scitaj);
             }
             else if (operacia == b) {
                 System.out.println("Vysledok je: ");
-                System.out.println(prve - druhe);
+                float vysledok_odcitaj = odcitaj(prve,druhe);
+                System.out.println(vysledok_odcitaj);
             }
             else if (operacia == c) {
                 System.out.println("Vysledok je: ");
-                System.out.println(prve / druhe);
+                float vysledok_delenie = vydel(prve,druhe);
+                System.out.println(vysledok_delenie);
             }
             else if (operacia == d) {
                 System.out.println("Vysledok je: ");
-                System.out.println(prve * druhe);
+                float vysledok_nasobenie = vynasob(prve,druhe);
+                System.out.println(vysledok_nasobenie);
             }
             else {
                 System.out.println("Neexistuje tato operacia");
